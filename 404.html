@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/prime-greens-garden-web/" />
-    <script>
-      // For client-side routing: redirect to the correct path
-      var l = window.location;
-      var path = l.pathname.replace(/^\/prime-greens-garden-web/, '');
-      window.location.replace('/prime-greens-garden-web/' + (path ? path.replace(/^\//, '') : '') + l.search + l.hash);
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Get the current path after the repo name
+      var repo = '/prime-greens-garden-web';
+      var fullPath = location.pathname;
+      var relPath = fullPath.startsWith(repo) ? fullPath.slice(repo.length) : fullPath;
+      var newUrl = repo + '/index.html' + (relPath ? ('#' + relPath.replace(/^\//, '')) : '') + location.search + location.hash;
+      location.replace(newUrl);
     </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/prime-greens-garden-web/">
+    </noscript>
   </head>
-  <body></body>
+  <body>
+    Redirecting...
+  </body>
 </html>
