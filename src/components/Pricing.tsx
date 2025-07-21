@@ -10,7 +10,6 @@ const Pricing = () => {
       period: "/month",
       description: "Perfect for boutique restaurants and cafes looking to enhance their fresh produce supply.",
       features: [
-        "2 vertical growing towers",
         "50+ varieties available",
         "Weekly harvest delivery",
         "Basic analytics dashboard",
