@@ -27,7 +27,7 @@ const Hero = () => {
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
             AI-powered vertical hydroponic farming that delivers premium quality vegetables, 
-            fruits, herbs, and mushrooms directly to luxury restaurants, hotels, and homes.
+            fruits, herbs, and mushrooms directly to your restaurant, hotel, or home.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -43,7 +43,7 @@ const Hero = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white/80">
             <div className="animate-slide-up">
-              <div className="text-3xl font-bold text-white">99%</div>
+              <div className="text-3xl font-bold text-white">95%</div>
               <div className="text-sm">Water Efficiency</div>
             </div>
             <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
@@ -51,7 +51,7 @@ const Hero = () => {
               <div className="text-sm">Days Growing Season</div>
             </div>
             <div className="animate-slide-up" style={{ animationDelay: '0.4s' }}>
-              <div className="text-3xl font-bold text-white">50x</div>
+              <div className="text-3xl font-bold text-white">10x</div>
               <div className="text-sm">Higher Yield</div>
             </div>
           </div>

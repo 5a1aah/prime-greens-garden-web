@@ -86,20 +86,20 @@ const CTA = () => {
               <Phone className="w-5 h-5 mr-3" />
               <div>
                 <div className="font-semibold">Call Us</div>
-                <div className="text-sm">+1 (555) 123-GROW</div>
+                <div className="text-sm">+212 620-410-317</div>
               </div>
             </div>
             <div className="flex items-center justify-center text-white/80">
               <Mail className="w-5 h-5 mr-3" />
               <div>
                 <div className="font-semibold">Email Us</div>
-                <div className="text-sm">hello@primegreens.co</div>
+                <div className="text-sm">salah.eddine.seecs@gmail.com</div>
               </div>
             </div>
           </div>
 
           <div className="mt-12 text-white/60 text-sm">
-            No credit card required • Free installation • 30-day money-back guarantee
+            No credit card required • Free consultation • 30-day money-back guarantee
           </div>
         </div>
       </div>

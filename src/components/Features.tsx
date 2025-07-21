@@ -20,7 +20,7 @@ const Features = () => {
     {
       icon: Droplets,
       title: "Precision Automated Irrigation",
-      description: "Smart water management system delivers exact nutrient solutions to each plant, reducing water usage by 99% compared to traditional farming.",
+      description: "Smart water management system delivers exact nutrient solutions to each plant, reducing water usage by 95% compared to traditional farming.",
       image: automationSystem
     },
     {
