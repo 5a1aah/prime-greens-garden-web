@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/prime-greens-garden-web/" />
+    <script>
+      // For client-side routing: redirect to the correct path
+      var l = window.location;
+      var path = l.pathname.replace(/^\/prime-greens-garden-web/, '');
+      window.location.replace('/prime-greens-garden-web/' + (path ? path.replace(/^\//, '') : '') + l.search + l.hash);
+    </script>
+  </head>
+  <body></body>
+</html>
